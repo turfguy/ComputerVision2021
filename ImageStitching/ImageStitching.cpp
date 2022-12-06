@@ -9,6 +9,7 @@
 using namespace cv;
 using namespace std;
 
+
 int main(int argc, char* argv[])
 {
 	//1. 입력은 직접 촬영한 두 장의 사진을 사용합니다. 이때 카메라의 위치는 고정한 채 방향만 약 30도 정도 돌려서 촬영하는 것을 권장합니다.
