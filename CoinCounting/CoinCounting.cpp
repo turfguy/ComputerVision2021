@@ -3,7 +3,7 @@
 #include <opencv2/core.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
-
+ 
 using namespace cv;
 using namespace std;
 
@@ -31,7 +31,7 @@ int main(int argc, const char* argv[])
 
 
     vector<Vec3f> circles;
-    HoughCircles(cimg, circles, HOUGH_GRADIENT, 1, 90, 50, 20, 20, 100);  // hough circle transform
+    HoughCircles(cimg, circles, HOUGH_GRADIENT, 1, 90, 50, 20, 20, 100);  // hough circle transform(허프서클 트랜스폼)
 
     for (size_t i = 0; i < circles.size(); i++)
     {
